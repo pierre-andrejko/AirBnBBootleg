@@ -1,0 +1,65 @@
+a:link{
+    text-decoration: none;
+}
+.notresearch{
+    display:flex;
+    flex-direction: column;
+}
+.notresearchcenter{
+    display:flex;
+    justify-content: center;
+    padding-left: 20 px;
+}
+.logements{
+    font-display: bold;
+}
+.notresearchend{
+    text-align: end;
+}
+.recherche{
+    display: flex;
+    background-color: white;
+    border-radius: 50px;
+    border-color: grey;
+    border-style: solid;
+    border-right: 10cm;
+    justify-content:space-around;
+    margin-left: 15%;
+    width: 80%;
+}
+.loupe{
+    background-color: rgb(183, 17, 17);
+    border-radius: 10px;
+    display:flex;
+    justify-content: end;
+}
+.icones{
+    display: inline;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.firstline li{
+    display: inline;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 20px;
+}
+.secondline li{
+    display: inline;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 20px;
+}
+.basdepage{
+    text-align: start;
+}
+.basdepage li{
+    display:inline;
+    justify-content: start;
+}
+.currency{
+    display: flex;
+    justify-content: end;
+    font-size: larger;
+    font-display: bold;
+}
